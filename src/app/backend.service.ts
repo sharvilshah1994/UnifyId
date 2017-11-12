@@ -6,7 +6,7 @@ import 'rxjs/Rx';
 @Injectable()
 export class BackendService {
 
-  url = "https://www.random.org/integers/?num=10000&min=0&max=10000&col=1&base=10&format=plain&rnd=new";
+  url = "https://www.random.org/integers/?num=10000&min=0&max=10000&col=1&base=10&format=plain&rand=new";
 
   constructor (private http: Http) {
   }
